@@ -3,8 +3,7 @@
     font-family: -apple-system, system-ui,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
     sans-serif;
-    font-size: 18px;;
-    
+    font-size: 18px;
 }
 :root{
     --navbar-icon-color: #4B5463;
@@ -66,7 +65,6 @@ h3{
 p{
     line-height: 1.5rem;
 }
-
 /* used for the navigation bar at the top */
 .sticky{
     position: sticky;
@@ -173,7 +171,6 @@ nav{
     padding: 0.4rem 1rem;
     border-radius: .25rem;
     justify-content: space-between;
-
 }
 .skill h4{
     font-weight: 500;
@@ -194,11 +191,9 @@ nav{
 .css3{
     background-color: #1572b6;
     color:white;
-
 }
 .css3 h4{
     color:white;
-
 }
 .mongo{
     background-color: #004968;
@@ -214,7 +209,6 @@ nav{
 .figma h4{ 
     color: white;
 }
-
 .express{
     background-color: #303030;
     color: #669961;
@@ -236,8 +230,6 @@ nav{
 .react h4{ 
     color: #61DAFB;
 }
-
-
 .hero-button-container{
     padding-bottom: 2rem;
     justify-content: space-around;
@@ -270,24 +262,17 @@ nav{
 .hero-button:active{
     background-color: hsl(193, 38%, 86%);
     border-color: hsl(193, 38%, 86%);
-
     transition: 200ms;
 }
-
 .clicked{
     outline: 3px solid var(--accent-color);
 }
-/* .section1{
-
-} */
 .section2{
-
     gap: 1rem;
 }
 .section-title{
     gap: 0.5rem;
     align-items: center;
-    
 }
 .project-card{
     flex-direction: column;
@@ -341,29 +326,24 @@ nav{
 .box-shadow-2{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-
 .contact{
     gap: 0.5rem;
     margin: 2rem 10rem 0 10rem;
-
 }
 .contact-title{
     border-bottom: 1px solid var(--contact-color);
     color: var(--contact-color);
-
 }
 .contact-email{
     align-items: center;
     gap: 1rem;
     flex-shrink: 0;
 }
-
 footer{
     color:rgb(150, 149, 149);
     text-align: center;
     padding: 1rem 0;
 }
-
 @media screen and (max-width: 672px){
     h1{
         font-size: 2.4rem;
@@ -375,7 +355,6 @@ footer{
         gap: 0.5rem;
         margin: 2rem 10% 0 10%;
     }
-
     .hero{
         flex-direction: column-reverse;
         align-items: center;
@@ -392,7 +371,6 @@ footer{
     .skill-container{
         justify-content: center;
     }
-
     .grid{
         grid-template-columns: 1fr;
     }
@@ -403,7 +381,6 @@ footer{
     }
     .project-card{
         max-width: 36rem;
-
     }
     .section-title{
         flex-direction: column;
