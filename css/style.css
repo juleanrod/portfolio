@@ -65,6 +65,12 @@ h3{
 p{
     line-height: 1.5rem;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 /* used for the navigation bar at the top */
 .sticky{
     position: sticky;
@@ -140,7 +146,6 @@ nav{
 .contact-link{
     color: var(--contact-color);
     font-weight: 600;
-    text-decoration-style: dotted;
 }
 .transition{
     transition: all 0.5s;
@@ -174,6 +179,14 @@ nav{
 }
 .skill h4{
     font-weight: 500;
+    cursor: pointer;
+}
+.stack-icon {
+    filter: grayscale(100%);
+    transition: filter .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.stack-icon:hover {
+    filter: none;
 }
 .js{
     background-color:#f7df1e;
@@ -338,6 +351,9 @@ nav{
     align-items: center;
     gap: 1rem;
     flex-shrink: 0;
+}
+.contact-link:hover{
+    color:var(--accent-color);
 }
 footer{
     color:rgb(150, 149, 149);
