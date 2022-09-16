@@ -7,7 +7,7 @@
 }
 :root{
     --navbar-icon-color: #4B5463;
-    --accent-color:rgb(72, 209, 141);
+    --accent-color:rgb(29, 160, 99);
     --text-color: #374151;
     --heading-color: #4B5463;
     --bground-color: white;
@@ -19,7 +19,7 @@
 }
 .light{
     --navbar-icon-color: #4B5463;
-    --accent-color:rgb(72, 209, 141);
+    --accent-color:rgb(29, 160, 99);
     --text-color: #374151;
     --heading-color: #4B5463;
     --bground-color: white;
@@ -30,6 +30,7 @@
 }
 .dark{
     --bground-color: hsl(218, 23%, 16%);
+    --accent-color:rgb(72, 209, 141);
     --nav-bground-color: hsl(218, 23%, 16%);
     --hover-background:#236350;
     --text-color:#9ca3af;
@@ -75,6 +76,7 @@ a:hover {
 .sticky{
     position: sticky;
     top: 0px;
+    z-index: 999;
 }
 .nav-container{
     background-color: var(--nav-bground-color);
@@ -366,6 +368,12 @@ footer{
     }
     h2{
         font-size: 1.3rem;
+    }
+    h3 {
+        text-align: center;
+    }
+    .skill-text {
+        text-align: center;
     }
     .contact{
         gap: 0.5rem;
